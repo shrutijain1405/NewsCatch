@@ -1,0 +1,203 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Naman",
+      "password": "passworld",
+      "news": [
+        "india",
+        "world",
+        "sports"
+      ]
+    },
+    {
+      "Id": 908909,
+      "Customer": "Jason Sweet",
+      "Quantity": 1,
+      "Price": 18,
+      "id": 2
+    },
+    {
+      "salutation": "Mr.",
+      "name": "lknewln",
+      "email": "jakso@jajm.com",
+      "Gender": "Male",
+      "password": "nelnvl",
+      "news": [
+        "world",
+        "business",
+        "sports"
+      ],
+      "id": 3
+    },
+    {
+      "salutation": "Mr.",
+      "username": "Shruti",
+      "email": "shr@gm.com",
+      "Gender": "Female",
+      "password": "jain",
+      "news": [
+        "world",
+        "business",
+        "sports"
+      ],
+      "id": 4
+    },
+    {
+      "salutation": "Mr.",
+      "username": "Aditya",
+      "email": "ad@gm.com",
+      "Gender": "Male",
+      "password": "jain",
+      "news": [
+        "india",
+        "business",
+        "karnataka"
+      ],
+      "id": 5
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 6
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 7
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 8
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 9
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 10
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 11
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 12
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 13
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Shreya",
+      "email": "ss@gma.iop",
+      "Gender": "Female",
+      "password": "ioplkj",
+      "news": [
+        "india",
+        "IPL",
+        "karnataka"
+      ],
+      "id": 14
+    },
+    {
+      "salutation": "Ms.",
+      "username": "Liza",
+      "email": "liz@mat.mail",
+      "Gender": "Female",
+      "password": "yuiop",
+      "news": [
+        "world",
+        "business",
+        "IPL"
+      ],
+      "id": 15
+    },
+    {
+      "salutation": "Mrs.",
+      "username": "Jayashree",
+      "email": "jayashree@mail.com",
+      "Gender": "Female",
+      "password": "qwerty",
+      "news": [
+        "india",
+        "business",
+        "karnataka"
+      ],
+      "id": 16
+    }
+  ]
+}

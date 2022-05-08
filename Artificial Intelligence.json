@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 7656,
+    "articles": [
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Jessica Conditt",
+            "title": "GGWP is an AI system that tracks and fights in-game toxicity",
+            "description": "When it comes to online games, we all know the \u201creport\u201d button doesn\u2019t do anything. Regardless of genre, publisher or budget, games launch every day with ineffective systems for reporting abusive players, and some of the largest titles in the world exist in a\u2026",
+            "url": "https://www.engadget.com/toxic-abuse-games-ggwp-aaa-chat-thresh-222747956.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-03/b5762230-a962-11ec-bfef-55e6986560d3",
+            "publishedAt": "2022-03-21T22:27:47Z",
+            "content": "When it comes to online games, we all know the report button doesnt do anything. Regardless of genre, publisher or budget, games launch every day with ineffective systems for reporting abusive player\u2026 [+5560 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "B.K. Jackson",
+            "title": "How Apps Can Help People Manage Chronic Illnesses",
+            "description": "Conditions such as Hashimoto\u2019s disease often require ongoing treatment and lifestyle modifications. But apps can empower patients to improve their health.",
+            "url": "https://www.wired.com/story/how-apps-help-manage-chronic-illnesses/",
+            "urlToImage": "",
+            "publishedAt": "2022-03-15T13:00:00Z",
+            "content": "According to Katie Wilkinson, head of community at Paloma Health, an online specialty clinic focused on Hashimotos and hypothyroidism, key issues for patients are access to care and care quality. The\u2026 [+4504 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Nicole Wetsman",
+            "title": "Ex-Google CEO funneled money into the White House science office",
+            "description": "Eric Schmidt\u2019s contributions within the White House Office of Science and Technology Policy raised ethical concerns because of his financial interests in AI. His foundation paid employee salaries.",
+            "url": "https://www.theverge.com/2022/3/28/22999754/eric-schmidt-google-money-white-house-science-ai-lander",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/F-Xc1o_Vu4mRmx2bBjDO6fGdeko=/0x368:5169x3074/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23350482/1328571726.jpg",
+            "publishedAt": "2022-03-28T17:11:37Z",
+            "content": "Eric Schmidts contributions raised ethical concerns, Politico reported\r\nEric Schmidt speaks at a technology summit in Washington, DC.\r\nPhoto by Kevin Dietsch/Getty Images\r\nFormer Google CEO Eric Schm\u2026 [+2013 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Mack DeGeurin",
+            "title": "13% of People Think Elon Musk\u2019s Singularity Brain Chip Will Be Good for Society",
+            "description": "Elon Musk believes humans will one day use implantable brain computer interfaces to achieve a \u201csymbiosis\u201d between humans and artificial intelligence, preferably his. Six years out from founding his company Neuralink, new polling suggests the public still has \u2026",
+            "url": "https://gizmodo.com/pew-study-says-13-adults-are-optimistic-about-brain-im-1848663919",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/11eaf3191620b7a8715a37036b684ea2.jpg",
+            "publishedAt": "2022-03-17T14:00:00Z",
+            "content": "Elon Musk believes humans will one day use implantable brain computer interfaces to achieve a symbiosis between humans and artificial intelligence, preferably his. Six years out from founding his com\u2026 [+5454 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Not smart but clever? The return of 'dumbphones'",
+            "description": "Why sales of very basic mobile phones, without apps and internet connection, are increasing.",
+            "url": "https://www.bbc.co.uk/news/business-60763168",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F393/production/_123755326_gettyimages-645863306.jpg",
+            "publishedAt": "2022-03-21T00:04:45Z",
+            "content": "By Suzanne BearneBusiness reporter\r\nImage source, Getty Images\r\nImage caption, The Nokia 3310 phone is one of the best-selling handsets of all time, selling 126 million units\r\nSeventeen-year-old Robi\u2026 [+7073 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "War in Ukraine: What Ukraine is getting right",
+            "description": "The BBC's Frank Gardner looks at four themes that have defined Ukraine's reaction to Russia's invasion.",
+            "url": "https://www.bbc.co.uk/news/uk-60867202",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/91E9/production/_123835373_hi074380842.jpg",
+            "publishedAt": "2022-03-24T18:11:02Z",
+            "content": "By Frank GardnerBBC security correspondent\r\nOne month into this invasion and so far, Ukraine has defied the odds. Outnumbered on almost every metric - in tanks, in troops, in aircraft - Ukraine's for\u2026 [+7661 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Blog.google"
+            },
+            "author": "Marija RalicGoogle.org Lead, Asia Pacific",
+            "title": "The Google.org grantee using AI to detect bushfire risks",
+            "description": "From predicting floods to improving waste management, organizations and researchers across Asia Pacific are using technology to respond to the impact of climate change.\r\nSupporting this important work is a priority for Google.org. At today\u2019s Southeast Asia De\u2026",
+            "url": "https://blog.google/around-the-globe/google-asia/ai-detect-bushfire-risks/",
+            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/UQXPOL.jpeg_1.max-1000x1000.jpg",
+            "publishedAt": "2022-03-16T04:00:00Z",
+            "content": "Could you share more about the solution you and your team have created to address the bushfires?\r\nOver the past few years, my graduate students and I have developed a mobile weather radar capability \u2026 [+2194 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Data privacy and artificial intelligence in health care - Reuters.com",
+            "description": "The use of artificial intelligence (AI) in the delivery of health care continues to grow rapidly. Access to patient medical data is often central to the use of AI in the delivery of health care. As the exchange of medical information between patients, physici\u2026",
+            "url": "https://www.reuters.com/legal/litigation/data-privacy-artificial-intelligence-health-care-2022-03-17/",
+            "urlToImage": "https://www.reuters.com/resizer/AtDrNCeSrzD2XaLDE0ps5hzrdaU=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/5FIQNXCHLNEMFIX3BASQFQKBRA.JPG",
+            "publishedAt": "2022-03-17T16:28:00Z",
+            "content": "The company and law firm names shown above are generated automatically based on the text of the article. We are improving this feature as we continue to test and develop in beta. We welcome feedback,\u2026 [+7382 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "EU rules must focus on AI benefits not curbs, lawmaker says - Reuters.com",
+            "description": "Europe's attempt to set landmark rules for artificial intelligence should take a positive approach to reap the benefits of the technology rather than restrict it, European Parliament lawmaker Svenja Hahn said on Tuesday.",
+            "url": "https://www.reuters.com/technology/eu-rules-must-focus-ai-benefits-not-curbs-lawmaker-says-2022-03-22/",
+            "urlToImage": "https://www.reuters.com/resizer/gGeeobAZgTQNIQAor8MnKf7XwJY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/NXTZ63R7GBLIHMGTGH4YJK5LMU.jpg",
+            "publishedAt": "2022-03-22T18:21:00Z",
+            "content": "BRUSSELS, March 22 (Reuters) - Europe's attempt to set landmark rules for artificial intelligence should take a positive approach to reap the benefits of the technology rather than restrict it, Europ\u2026 [+2203 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Israel's OurCrowd set to open AI R&D centre in Abu Dhabi - Reuters",
+            "description": "OurCrowd, one of Israel's largest venture firms, plans to open an artificial intelligence-based research and development centre in Abu Dhabi by early June that will help with investment decision making, a company official said.",
+            "url": "https://www.reuters.com/world/middle-east/israels-ourcrowd-set-open-ai-rd-centre-abu-dhabi-2022-03-21/",
+            "urlToImage": "https://www.reuters.com/resizer/Gx7Uqg0buh05XA48WgAy-MM58Hc=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/TUNAPNSJ7FJLRIPEUPKVIA23WU.jpg",
+            "publishedAt": "2022-03-21T13:53:00Z",
+            "content": "JERUSALEM, March 21 (Reuters) - OurCrowd, one of Israel's largest venture firms, plans to open an artificial intelligence-based research and development centre in Abu Dhabi by early June that will he\u2026 [+1999 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Baidu beats quarterly revenue estimates on AI, cloud services strength - Reuters",
+            "description": "Chinese search engine giant Baidu Inc reported quarterly revenue above Wall Street estimates on Tuesday, powered by high demand for its cloud and self-driving taxi services.",
+            "url": "https://www.reuters.com/technology/baidu-beats-quarterly-revenue-estimates-ai-cloud-services-strength-2022-03-01/",
+            "urlToImage": "https://www.reuters.com/resizer/b5ky09qDpXo-154NBC2uMt2xODA=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/R5CCSMV27FJZZG4ZP7ZY57QJIM.jpg",
+            "publishedAt": "2022-03-01T08:54:00Z",
+            "content": "March 1 (Reuters) - Chinese search engine giant Baidu Inc reported quarterly revenue above Wall Street estimates on Tuesday, powered by high demand for its cloud and self-driving taxi services.\r\nBaid\u2026 [+1136 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "China vows to continue its crackdown on industry monopolies - Reuters",
+            "description": "China will continue its crackdown on monopolies to ensure fair competition,Premier Li Keqiang said in a report released ahead of the start of the annual session of parliament on Saturday.",
+            "url": "https://www.reuters.com/world/china/china-vows-continue-its-crackdown-industry-monopolies-2022-03-05/",
+            "urlToImage": "https://www.reuters.com/resizer/dHuDz8mIc8h8NuIiGfuQ-ocuOrc=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QTMSSPBI3ZNTLDVLSBD5QD66ZM.jpg",
+            "publishedAt": "2022-03-05T03:13:00Z",
+            "content": "BEIJING, March 5 (Reuters) - China will continue its crackdown on monopolies to ensure fair competition,Premier Li Keqiang said in a report released ahead of the start of the annual session of parlia\u2026 [+1638 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Abu Dhabi wealth fund cuts jobs in effort to save $272 mln in costs - Reuters.com",
+            "description": "Abu Dhabi Investment Authority, one of the world's largest sovereign wealth funds, has cut dozens of jobs over the past year as part of a one billion dirham ($272.29 million) cost saving program, two sources told Reuters.",
+            "url": "https://www.reuters.com/markets/funds/abu-dhabi-wealth-fund-cuts-jobs-effort-save-272-mln-costs-2022-03-04/",
+            "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=77",
+            "publishedAt": "2022-03-04T05:05:00Z",
+            "content": "DUBAI, March 4 (Reuters) - Abu Dhabi Investment Authority, one of the world's largest sovereign wealth funds, has cut dozens of jobs over the past year as part of a one billion dirham ($272.29 millio\u2026 [+2619 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Google tests catching heart, eye issues from smartphone sensors - Reuters",
+            "description": "Google announced on Thursday its latest plans for using smartphones to monitor health, saying it would test whether capturing heart sounds and eyeball images could help people identify issues from home.",
+            "url": "https://www.reuters.com/technology/google-tests-catching-heart-eye-issues-smartphone-sensors-2022-03-24/",
+            "urlToImage": "https://www.reuters.com/resizer/4OmL4jVlUEqAz78BbbuGo2KjdhY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/FQXJQSMZEVJ4NA7QTFQP6GUAU4.jpg",
+            "publishedAt": "2022-03-24T16:07:00Z",
+            "content": "OAKLAND, Calif., March 24 (Reuters) - Google announced on Thursday its latest plans for using smartphones to monitor health, saying it would test whether capturing heart sounds and eyeball images cou\u2026 [+1991 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Quantum startup Sandbox AQ spins off from Alphabet, gains 'nine figures' in funding - Reuters.com",
+            "description": "Sandbox AQ, which has long-term goals to help clients use quantum computing, announced on Tuesday that it has spun off from Alphabet Inc <a href=\"https://www.reuters.com/companies/GOOGL.O\" target=\"_blank\">(GOOGL.O)</a>, raised \"nine figures\" of funding and si\u2026",
+            "url": "https://www.reuters.com/technology/quantum-startup-sandbox-aq-spins-off-alphabet-gains-nine-figures-funding-2022-03-22/",
+            "urlToImage": "https://www.reuters.com/resizer/Y8byt1om5SJ6croqfaxKa_5-74I=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/OG45NRCY3JMAXAKUBW4XA32WDM.jpg",
+            "publishedAt": "2022-03-22T13:30:00Z",
+            "content": "March 22 (Reuters) - Sandbox AQ, which has long-term goals to help clients use quantum computing, announced on Tuesday that it has spun off from Alphabet Inc (GOOGL.O), raised \"nine figures\" of fundi\u2026 [+2711 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "EU wants less dependence on imported chips, food, raw materials, as Ukraine war rages - Reuters.com",
+            "description": "European Union leaders will say on Friday they want to cut their dependence on global suppliers of food, microprocessors, drugs, raw materials and digital technologies, as Russia's invasion of Ukraine added a new argument for the EU to be more self-reliant.",
+            "url": "https://www.reuters.com/markets/europe/eu-wants-less-dependence-imported-chips-food-raw-materials-ukraine-war-rages-2022-03-11/",
+            "urlToImage": "https://www.reuters.com/resizer/__AwU3l2zED6Wqj4YDQbhk_unOc=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/3CSCVVVWJVJFHBE2KZN7O32JZ4.jpg",
+            "publishedAt": "2022-03-11T11:57:00Z",
+            "content": "VERSAILLES, France, March 11 (Reuters) - European Union leaders will say on Friday they want to cut their dependence on global suppliers of food, microprocessors, drugs, raw materials and digital tec\u2026 [+2769 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "EXCLUSIVE Ukraine has started using Clearview AI's facial recognition during war - Reuters.com",
+            "description": "Ukraine's defense ministry on Saturday began using Clearview AI\u2019s facial recognition technology, the company's chief executive told Reuters, after the U.S. startup offered to uncover Russian assailants, combat misinformation and identify the dead.",
+            "url": "https://www.reuters.com/technology/exclusive-ukraine-has-started-using-clearview-ais-facial-recognition-during-war-2022-03-13/",
+            "urlToImage": "https://www.reuters.com/resizer/YyeiA2ur5yS4HU0JE-8rg7Amp7c=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/WX4KA4TGFVMD7FJLHWEOER5IMQ.jpg",
+            "publishedAt": "2022-03-13T20:02:00Z",
+            "content": "March 13 (Reuters) - Ukraine's defense ministry on Saturday began using Clearview AIs facial recognition technology, the company's chief executive told Reuters, after the U.S. startup offered to unco\u2026 [+4113 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Russian sanctions over Ukraine grow, Biden to talk to Xi - Reuters.com",
+            "description": "Japan and Australia on Friday slapped fresh sanctions on Russian entities as punishment for Moscow's invasion of Ukraine, which the West says has been stalled by staunch resistance but continues to take a devastating toll on civilians.",
+            "url": "https://www.reuters.com/world/europe/russian-sanctions-over-ukraine-grow-biden-talk-xi-2022-03-18/",
+            "urlToImage": "https://www.reuters.com/resizer/ReWr08u5MqxP7Uj3NCITyvjtuE4=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4CGV5WY5WZP7BA3LTPQT7IKSUE.jpg",
+            "publishedAt": "2022-03-18T02:47:00Z",
+            "content": "KYIV/LVIV, Ukraine, March 18 (Reuters) - Japan and Australia on Friday slapped fresh sanctions on Russian entities as punishment for Moscow's invasion of Ukraine, which the West says has been stalled\u2026 [+5191 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "As Russian advance stalls, U.S. warns China against aiding Moscow in Ukraine - Reuters.com",
+            "description": "As Russian troops appeared to stall in their advance on Ukrainian cities, the United States voiced concern on Thursday that China might assist Moscow with military equipment as the war entered its fourth week.",
+            "url": "https://www.reuters.com/business/aerospace-defense/russian-advance-stalls-us-warns-china-against-aiding-moscow-ukraine-2022-03-17/",
+            "urlToImage": "https://www.reuters.com/resizer/0qmYKAnPe-kmBMBlGJAwucY9Jm0=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/AE4CHLJIJJJPLIY2YFWKMFNGXA.jpg",
+            "publishedAt": "2022-03-17T20:45:00Z",
+            "content": "KYIV/LVIV/WASHINGTON, Ukraine, March 17 (Reuters) - As Russian troops appeared to stall in their advance on Ukrainian cities, the United States voiced concern on Thursday that China might assist Mosc\u2026 [+7210 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Scant progress in peace talks as Ukrainian cities pounded in more Russian attacks - Reuters.com",
+            "description": "Rescue workers on Thursday dug survivors out of the rubble of a theatre in the besieged city of Mariupol which Ukraine said had been hit by a Russian air strike as people sheltered there from bombardments.",
+            "url": "https://www.reuters.com/business/aerospace-defense/scant-progress-peace-talks-ukrainian-cities-pounded-more-russian-attacks-2022-03-17/",
+            "urlToImage": "https://www.reuters.com/resizer/0qmYKAnPe-kmBMBlGJAwucY9Jm0=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/AE4CHLJIJJJPLIY2YFWKMFNGXA.jpg",
+            "publishedAt": "2022-03-17T17:32:00Z",
+            "content": "KYIV/LVIV, Ukraine, March 17 (Reuters) - Rescue workers on Thursday dug survivors out of the rubble of a theatre in the besieged city of Mariupol which Ukraine said had been hit by a Russian air stri\u2026 [+6205 chars]"
+        }
+    ]
+}

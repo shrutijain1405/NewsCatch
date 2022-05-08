@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            NewsCatch
+        </title>
+        <!--
+            colors: 10% D83411
+                    30% 050404
+                    60% C6C6C6
+        -->
+        <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+    <style>
+
+    </style>
+    </head>
+    <body onload = "getNews()">
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid" style="position: sticky;">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="indexcopy.html" style="color: red; "><b>NewsCatch</b></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="./indexcopy.html">Home</a></li>
+                    <li id="india" style="display: none;"><a href="/india.html">India</a></li>
+                    <li id="world" style="display: none;"><a href="/international.html">International</a></li>
+                    <li class="active" id="sports" style="display: none;"><a href="/sports.html">Sports</a></li>
+                    <li id="IPL" style="display: none;"><a href="/IPL.html">IPL</a></li>
+                    <li id="karnataka" style="display: none;"><a href="/karnataka.html">Karnataka</a></li>
+                    <li id="business" style="display: none;"><a href="/business.html">Business</a></li>
+                    <li><a href="#myModal" class="pull-right" data-toggle="modal">Profile</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <center>        
+            <div class="jumbotron text-center" id="banner">
+                <span >
+                
+                </span>
+            </div>
+        </center>
+
+        
+        <div class="container">
+                <div class="row">
+                <div class="row" id="row1"></div>
+                <div class="row" id="row2"></div>
+                <div class="row" id="row3"></div>
+                <div class="row" id="moreNews" style="display: none;"></div>
+                <div class="row" id="moreButton"><button type="button" onclick="func0()">Click for More</button></div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="page-footer font-small blue">
+            <br>
+            <br>
+            <br>
+        
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">Made By:
+                <a href="/">Shruti Naman Aditya Shreya </a>
+            </div>
+            <!-- Copyright -->
+        
+        </footer>
+        <!-- Footer -->
+    </body>
+    <script javascript>
+            
+        const inter = [
+        { "interests":"Ronaldo, Messi, Cricket, Baseball" }
+        ];
+
+        // Create an event listener on the button element:
+        function getNews(){
+            console.log("hii");
+            // Get the reciever endpoint from Python using fetch:
+            fetch("http://127.0.0.1:5000/receiver", 
+            {
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json',
+                'Accept': 'application/json'
+            },
+            // Strigify the payload into JSON:
+            body:JSON.stringify(inter)}).then(res=>{
+            if(res.ok){
+            return res.json()
+            }else{
+            alert("something is wrong")
+            }
+            }).then(jsonResponse=>{
+            
+            // Log the response data in the console
+            console.log(jsonResponse)
+            //document.getElementById('results').innerHTML = jsonResponse[0]['author']
+
+            document.getElementById("banner").style.backgroundImage = 'url("'+jsonResponse[0].urlToImage+'")';
+            function appendData(data) {
+                var mainContainer;
+                for (var i = 0; i <20; i++) {
+                    if (i < 3)
+                        mainContainer = document.getElementById("row1");
+                    else if (i < 6)
+                        mainContainer = document.getElementById("row2");
+                    else if (i < 9)
+                        mainContainer = document.getElementById("row3");
+                    else
+                        mainContainer = document.getElementById("moreNews");
+
+                    var div = document.createElement("div");
+                    div.innerHTML = '<div class="card col-sm-4">  <img src="' + data[i].urlToImage + '" class="card-img-top imgCat" alt="' + data[i].content + '"> <div class="card-body">'+' <h4 class="card-title" >' + data[i].title + '</h4><p class="card-text" >' + data[i].description + '</p><a href="' + data[i].url + '"  class="btn btn-primary">Read More...</a> </div > </div >';
+                    mainContainer.appendChild(div);
+                }
+            }
+            appendData(jsonResponse)
+
+            } 
+            ).catch((err) => console.error(err));
+            
+        }
+
+
+        function func0() {
+                document.getElementById('moreNews').style.display = "block";
+                document.getElementById('moreButton').style.display = "none";
+
+            }
+
+    </script>
+    <script src="modal.js"></script>
+    <script src="profileParse.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>

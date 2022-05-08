@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON Test</title>
+</head>
+
+<body>
+    <div id="myData">
+        <div class="row" id="row1"></div>
+        <div class="row" id="row2">row2</div>
+        <div class="row" id="row3">row3</div>
+        <div class="row" id="moreNews">more news</div>
+
+    </div>
+
+    <script>
+        fetch('people.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer;
+            for (var i = 0; i < data.length; i++) {
+                if(i<3)
+                mainContainer = document.getElementById("row1");
+                else if (i < 6)
+                mainContainer = document.getElementById("row2");
+                else if (i < 9)
+                mainContainer = document.getElementById("row3");
+                else 
+                mainContainer = document.getElementById("moreNews");
+                var div = document.createElement("div");
+                div.innerHTML = '<span><h1 >'+data[i].title+'</h1><p>'+data[i].description+'</p></span >';
+
+
+                var div = document.createElement("div");
+                div.innerHTML = '<div class="card col-sm-4">  <img src="' + data[i].urlToImage + '" class="card-img-top imgCat" alt="'+data[i].content+'"> <div class="card-body"> < h5 class="card-title" >' +data[i].title+'</h5>< p class="card-text" >'+data[i].description+'</p><a href="'+data[i].url+'  class="btn btn-primary">Go To Website</a> </div > </div >';
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>
+</body>
+
+</html>

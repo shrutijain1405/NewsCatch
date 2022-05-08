@@ -1,0 +1,30 @@
+[
+	{
+		"username": "Naman", 
+	 	"password": "passworld",
+		 "news": [
+    "india",
+    "world",
+    "sports"
+  ]
+	}, 
+	{
+		"username": "shruti", 
+		"password": "jain",
+		"news": [
+    "india",
+    "business",
+    "sports"
+  ]
+	}
+	,
+	{
+		"username": "ada", 
+		"password": "adatada",
+		"news": [
+    "karnataka",
+    "IPL",
+    "sports"
+  ]
+	}
+]

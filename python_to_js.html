@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        
+      <script type=text/javascript>
+
+        var inter = "India,AI";
+        var nn = 10;
+        var a;
+        $(function() {
+
+            $( document ).ready( function(){
+              $.ajax({
+                url: 'http://127.0.0.1:5000/getnews',
+                data:{
+                  interests: inter,
+                  n: nn
+                },
+                dataType: 'JSON',
+                type: 'GET',
+                success: function(data){
+                    $("#result").html(JSON.stringify(data.result)) ;
+                }
+                });
+             });
+        });
+            
+  </script>
+  </head>
+  <body>
+    <h1> HELLO !</h1>
+    <p id='result'>your news is here...</p>
+  </body>
+</html>

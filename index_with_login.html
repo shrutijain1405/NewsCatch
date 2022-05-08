@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            NewsCatch
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="modal.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+    <style>
+
+    </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">NewsCatch</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">India</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#myModal" class="pull-right" data-toggle="modal">Profile</a></li>
+                </ul>
+            </div>
+        </nav>
+        <center>        
+            <div class="jumbotron text-center" id="banner">
+                <h1>My First Bootstrap Page</h1>
+                <p>Resize this responsive page to see the effect!</p>
+            </div>
+        </center>
+
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Column 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                </div>
+                <div class="col-sm-4" id="jump">
+                    <h3>Column 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                </div>
+                <div class="col-sm-4">              
+                    <h3>Column 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Modal for login begins-->
+
+        <!-- Modal HTML -->
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog modal-login">
+                <div class="modal-content">
+                    <form action="/examples/actions/confirmation.php" method="post">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Login</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label>Username</label>
+                                <input type="text" class="form-control" required="required">
+                            </div>
+                            <div class="form-group">
+                                <div class="clearfix">
+                                    <label>Password</label>
+                                    <a href="#" class="pull-right text-muted"><small>Forgot?</small></a>
+                                </div>
+        
+                                <input type="password" class="form-control" required="required">
+                            </div>
+                            <a href="#jump" class="pull-left text-muted"><small>Register?</small></a>
+                        </div>
+                        <div class="modal-footer">
+                            <label class="checkbox-inline pull-left"><input type="checkbox"> Remember me</label>
+                            <input type="submit" class="btn btn-primary pull-right" value="Login">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Login modal ends-->
+
+    </body>
+    <script>          
+
+                const txt = '{"author": "Jessica Conditt",  "title": "GGWP is an AI system that tracks and fights in-game toxicity", "description": "When it comes to online games, we all know the \u201creport\u201d button doesn\u2019t do anything. Regardless of genre, publisher or budget, games launch every day with ineffective systems for reporting abusive players, and some of the largest titles in the world exist in a\u2026", "url": "https://www.engadget.com/toxic-abuse-games-ggwp-aaa-chat-thresh-222747956.html", "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-03/b5762230-a962-11ec-bfef-55e6986560d3","publishedAt": "2022-03-21T22:27:47Z","content": "When it comes to online games, we all know the report button doesnt do anything. Regardless of genre, publisher or budget, games launch every day with ineffective systems for reporting abusive player\u2026 [+5560 chars]"}'
+                const obj = JSON.parse(txt);
+                var docu = document.getElementById("banner");
+                docu.innerHTML = obj.author + ", " + obj.title+" <br>"+obj.description;
+                docu.body.style.backgroundImage ='url({{obj.urlToImage}})';
+
+    </script>
+    <script src="modal.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,59 @@
+<html>
+<head><link href='login_css.css' rel='stylesheet' type='text/css'></head>
+<body>
+<form method="post" action="index.html">
+<div class="box">
+<h1>Dashboard</h1>
+
+<input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+  
+<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+  
+<a href="#"><div class="btn">Sign In</div></a> <!-- End Btn -->
+
+<a href="#"><div id="btn2">Sign Up</div></a> <!-- End Btn2 -->
+  
+</div> <!-- End Box -->
+  
+</form>
+
+<p>Forgot your password? <u style="color:#f1c40f;">Click Here!</u></p>
+  
+<script type="text/javascript">
+function field_focus(field, email)
+  {
+    if(field.value == email)
+    {
+      field.value = '';
+    }
+  }
+
+  function field_blur(field, email)
+  {
+    if(field.value == '')
+    {
+      field.value = email;
+    }
+  }
+
+//Fade in dashboard box
+$(document).ready(function(){
+    $('.box').hide().fadeIn(1000);
+    });
+
+//Stop click event
+$('a').click(function(event){
+    event.preventDefault(); 
+	});
+// Get the modal
+var modal = document.getElementById('btn2');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

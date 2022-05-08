@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+</head>
+
+
+
+
+</div>
+
+<body>
+
+
+<section class="contact-form">
+    <h1>Hi There!</h1>
+    <p>Fill the below form to register.</p>
+
+    <form>
+        <div class="input-group">
+            <input id="salutation-mr" name="salutation" type="radio" value="Mr." />
+            <label class="inline" for="salutation-mr">Mr.</label>
+
+            <input id="salutation-mrs" name="salutation" type="radio" value="Mrs." />
+            <label class="inline" for="salutation-mrs">Mrs.</label>
+
+            <input id="salutation-ms" name="salutation" type="radio" value="Ms." />
+            <label class="inline" for="salutation-ms">Ms.</label>
+        </div>
+
+        <div class="input-group">
+            <label for="name">Username</label>
+            <input id="name" name="username" type="text" />
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" />
+        </div>
+
+        <div class="input-group">
+            <label for="Gender">Gender</label>
+            <select id="Gender" name="Gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="password">Enter a Password</label>
+            <textarea id="password" name="password" rows="1" cols="12"></textarea>
+        </div>
+
+        <div class="input-group">
+            <p class="group-label">Please select the domains you are interested:</p><br>
+            <input id="news-india" name="news" type="checkbox" value="india" />
+            <label class="inline" for="news-india">India</label>
+            <input id="news-world" name="news" type="checkbox" value="world" />
+            <label class="inline" for="news-world">World</label>
+            <input id="news-business" name="news" type="checkbox" value="business" />
+            <label class="inline" for="news-business">Business</label>
+            <input id="news-sports" name="news" type="checkbox" value="sports" />
+            <label class="inline" for="news-sports">Sports</label><br>
+            <input id="news-IPL" name="news" type="checkbox" value="IPL" />
+            <label class="inline" for="news-IPL">IPL</label>
+            <input id="news-Karnataka" name="news" type="checkbox" value="karnataka" />
+            <label class="inline" for="news-Karnataka">Karnataka</label>
+        </div>
+        <button type="submit" id="subs" onclick="location.href = './indexcopy.html';">Submiiiit!</button>
+    </form>
+    
+</section>
+
+<div class="results">
+    <h2>Form Data</h2>
+    <pre></pre>
+</body>
+
+<script>
+    async function handleFormSubmit(event) {
+            console.log("this shit works");
+            event.preventDefault();
+
+            const data = new FormData(event.target);
+
+            const formJSON = Object.fromEntries(data.entries());
+
+            // for multi-selects, we need special handling
+            formJSON.news = data.getAll('news');
+
+            const response = await fetch("http://localhost:3000/users/", {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formJSON, null, 2),
+        });
+        }
+
+        const form = document.querySelector('.contact-form');
+        form.addEventListener('submit', handleFormSubmit);
+</script>
+
+</html>
